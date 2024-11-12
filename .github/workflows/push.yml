@@ -1,6 +1,9 @@
-name: Ejercicio 1.
+name: Ejercicio 3
 
-on: push
+on: 
+  push: 
+    branches: 
+      - main
 
 jobs:
   ej1:
